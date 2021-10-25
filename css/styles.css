@@ -223,7 +223,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
   
@@ -343,10 +342,11 @@ ul {
 }
 
 .client-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
